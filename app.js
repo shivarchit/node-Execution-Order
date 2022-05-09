@@ -2,7 +2,7 @@ const baz = () => console.log('baz');
 const foo = () => console.log('foo');
 const zoo = () => console.log('zoo');
 const start = () => {
-  console.log('start');
+  console.log('started');
   setImmediate(baz);
   new Promise((resolve, reject) => {
     resolve('bar');
